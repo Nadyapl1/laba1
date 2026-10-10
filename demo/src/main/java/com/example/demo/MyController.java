@@ -15,6 +15,6 @@ public class MyController {
     // Второй эндпоинт: возвращает числа
     @GetMapping("/api/stats")
     public String getStats() {
-        return "Year: 2026, Version: 1, Status Code: 200";
+        return "985";
     }
 }
